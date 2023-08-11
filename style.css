@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: #eee;
+  background-color: #e2dbdb;
+}
+
+.game {
+  border-radius: 1.5rem;
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 4rem 2rem 0 2rem;
+  background-color: #222;
+  width: 375px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.6rem solid #eee;
+  padding-bottom: 18rem;
+}
+
+.btn {
+  font-family: inherit;
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+.again:hover {
+  background-color: #eee4e4;
+}
+
+.guess {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 15rem;
+  font-size: 1.7rem;
+  width: 30rem;
+  text-align: center;
+}
+
+.guessing-number {
+  font-size: 4rem;
+  background-color: #eee;
+  color: #222;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 23.5rem;
+  width: 6rem;
+  height: 5rem;
+  padding: 1rem;
+}
+
+.sections {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+.input-place {
+  border: 0.2rem solid #eee;
+  background-color: #222;
+  width: 11rem;
+  height: 5.5rem;
+}
+
+.text {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .game {
+    width: 768px;
+    padding: 7rem 4rem 0 5rem;
+  }
+  header {
+    border-bottom: 0.6rem solid #eee;
+    padding-bottom: 21rem;
+  }
+
+  .btn {
+    font-family: inherit;
+    font-size: medium;
+    width: 12rem;
+    height: 5.5rem;
+    padding: 0.5rem;
+  }
+
+  .again:hover {
+    background-color: #eee4e4;
+  }
+
+  .between {
+    font-size: 1.5rem;
+  }
+
+  .guess {
+    top: 18rem;
+    font-size: 2.7rem;
+    width: 50rem;
+  }
+
+  .guessing-number {
+    font-size: 6rem;
+    top: 28.5rem;
+    width: 10rem;
+    height: 9rem;
+    padding: 2rem;
+  }
+
+  .sections {
+    padding: 0 5rem;
+    margin-top: 15rem;
+  }
+
+  .right {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+  }
+
+  .input-place {
+    border: 0.3rem solid #eee;
+    width: 14rem;
+    height: 7.5rem;
+  }
+
+  .text {
+    margin-bottom: 3rem;
+  }
+}

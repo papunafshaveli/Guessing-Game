@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div class="game">
+      <header>
+        <button class="again btn">Again</button>
+        <p class="guess">Guess My Number!</p>
+        <div class="guessing-number">?</div>
+        <p class="between">(Between 1 and 20)</p>
+      </header>
+      <div class="sections">
+        <section class="left">
+          <input type="number" class="input-place" />
+          <button class="check btn">Check</button>
+        </section>
+
+        <section class="right">
+          <p class="text">Start guessing...</p>
+          <p class="textscore">💯 Score: <span class="score">20</span></p>
+          <p class="texthighscore">
+            🥇 Highscore: <span class="highscore">0</span>
+          </p>
+        </section>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
