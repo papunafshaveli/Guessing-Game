@@ -13,7 +13,8 @@ html {
 body {
   font-family: "Press Start 2P", cursive;
   color: #eee;
-  background-color: #e2dbdb;
+  background: url(./background.jpg);
+  background-size: cover;
 }
 
 .game {
@@ -153,6 +154,69 @@ header {
     border: 0.3rem solid #eee;
     width: 14rem;
     height: 7.5rem;
+  }
+
+  .text {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .game {
+    width: 1440px;
+    padding: 9rem 8rem 0 8rem;
+  }
+  header {
+    border-bottom: 0.6rem solid #eee;
+    padding-bottom: 32rem;
+  }
+
+  .btn {
+    font-family: inherit;
+    font-size: x-large;
+    width: 20rem;
+    height: 8.5rem;
+    padding: 0.5rem;
+  }
+
+  .again:hover {
+    background-color: #eee4e4;
+  }
+
+  .between {
+    font-size: 2.5rem;
+  }
+
+  .guess {
+    top: 26rem;
+    font-size: 3.8rem;
+    width: 70rem;
+  }
+
+  .guessing-number {
+    font-size: 9rem;
+    top: 43.5rem;
+    width: 12.5rem;
+    height: 12rem;
+    padding: 2rem;
+  }
+
+  .sections {
+    padding: 0 7rem;
+    margin-top: 20rem;
+  }
+
+  .right {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.8rem;
+  }
+
+  .input-place {
+    border: 0.4rem solid #eee;
+    width: 24rem;
+    height: 11.5rem;
   }
 
   .text {
