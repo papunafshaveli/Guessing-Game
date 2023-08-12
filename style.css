@@ -35,6 +35,7 @@ header {
 }
 
 .btn {
+  color: #222;
   font-family: inherit;
   height: 4rem;
   padding: 0.5rem;
@@ -61,10 +62,8 @@ header {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: 23.5rem;
-  width: 6rem;
-  height: 5rem;
-  padding: 1rem;
+  top: 22rem;
+  padding: 2rem;
 }
 
 .sections {
@@ -88,6 +87,10 @@ header {
 }
 
 .input-place {
+  text-align: center;
+  font-family: inherit;
+  font-size: 4rem;
+  color: #eee;
   border: 0.2rem solid #eee;
   background-color: #222;
   width: 11rem;
@@ -132,10 +135,8 @@ header {
 
   .guessing-number {
     font-size: 6rem;
-    top: 28.5rem;
-    width: 10rem;
-    height: 9rem;
-    padding: 2rem;
+    top: 27.5rem;
+    padding: 3rem;
   }
 
   .sections {
@@ -151,6 +152,7 @@ header {
   }
 
   .input-place {
+    font-size: 5rem;
     border: 0.3rem solid #eee;
     width: 14rem;
     height: 7.5rem;
@@ -195,10 +197,9 @@ header {
 
   .guessing-number {
     font-size: 9rem;
-    top: 43.5rem;
-    width: 12.5rem;
-    height: 12rem;
-    padding: 2rem;
+    top: 40.5rem;
+
+    padding: 4rem;
   }
 
   .sections {
@@ -214,6 +215,8 @@ header {
   }
 
   .input-place {
+    font-size: 8rem;
+    color: #eee;
     border: 0.4rem solid #eee;
     width: 24rem;
     height: 11.5rem;
